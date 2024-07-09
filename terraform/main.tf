@@ -6,17 +6,17 @@ module "sandbox" {
     AccountName               = "sandbox-aft"
     ManagedOrganizationalUnit = "Old (ou-ffdz-dcvv5s4f)"
     SSOUserEmail              = "huytd.aft.aws@outlook.com"
-    SSOUserFirstName          = "Sandbox"
+    SSOUserFirstName          = "Sandbox1"
     SSOUserLastName           = "AFT"
   }
 
   account_tags = {
-    "Learn Tutorial" = "AFT update"
+    "Learn Tutorial" = "AFT update1"
   }
 
   change_management_parameters = {
-    change_requested_by = "HashiCorp Learn update"
-    change_reason       = "Learn AWS Control Tower Account Factory for Terraform update"
+    change_requested_by = "HashiCorp Learn update1"
+    change_reason       = "Learn AWS Control Tower Account Factory for Terraform update1"
   }
 
   custom_fields = {
