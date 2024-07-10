@@ -30,7 +30,7 @@ module "sandbox" {
   custom_fields = {
     group = "non-prod"
     custom1 = "a"
-    custom2 = "b"
+    # custom2 = "b"
   }
   
 
